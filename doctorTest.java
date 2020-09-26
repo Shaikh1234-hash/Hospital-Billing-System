@@ -15,9 +15,9 @@ import static org.junit.Assert.*;
  *
  * @author User
  */
-public class HospitalBillingSystemTest {
+public class doctorTest {
     
-    public HospitalBillingSystemTest() {
+    public doctorTest() {
     }
     
     @BeforeClass
@@ -37,13 +37,25 @@ public class HospitalBillingSystemTest {
     }
 
     /**
-     * Test of main method, of class HospitalBillingSystem.
+     * Test of new_doctor method, of class doctor.
      */
     @Test
-    public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        HospitalBillingSystem.main(args);
+    public void testNew_doctor() {
+        System.out.println("new_doctor");
+        doctor instance = new doctor();
+        instance.new_doctor();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of doctor_info method, of class doctor.
+     */
+    @Test
+    public void testDoctor_info() {
+        System.out.println("doctor_info");
+        doctor instance = new doctor();
+        instance.doctor_info();
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }

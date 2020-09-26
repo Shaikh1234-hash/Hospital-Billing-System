@@ -15,9 +15,9 @@ import static org.junit.Assert.*;
  *
  * @author User
  */
-public class HospitalBillingSystemTest {
+public class pharmacyTest {
     
-    public HospitalBillingSystemTest() {
+    public pharmacyTest() {
     }
     
     @BeforeClass
@@ -34,18 +34,6 @@ public class HospitalBillingSystemTest {
     
     @After
     public void tearDown() {
-    }
-
-    /**
-     * Test of main method, of class HospitalBillingSystem.
-     */
-    @Test
-    public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        HospitalBillingSystem.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
